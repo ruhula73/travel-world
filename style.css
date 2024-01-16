@@ -71,7 +71,7 @@ nav li a{
     line-height: 26px;
 }
 .where-go{
-    text-align: center;
+    /* text-align: center; */
     width: 174px;
     height: 52px;
     border-radius: 8px;
@@ -94,6 +94,41 @@ nav li a{
     background: #FFF;
     border: none;
     color: rgba(19, 19, 24, 0.50);
+}
+
+
+@media screen and (max-width: 600px) {
+    header{
+        padding: 30px;
+    }
+    nav{
+        display: block;
+    }
+    .banner-title{
+        width: 375px;
+        height: 64px;
+    }
+    nav>ul{
+        display: block
+    }
+    .banner-img{
+        width: 335px;
+        height: 483px;
+    }
+    .section-title{
+        font-size: 22px;
+        padding-top: 50px;
+
+    }
+    .seclection{
+        margin-top: 16px;
+    } 
+    .seclect-type{
+        margin-top: 16px;
+    }
+    .btn-primary{
+        margin-top: 16px;
+    }   
 }
 
 

@@ -14,6 +14,7 @@ body{
     border: none;
     
 }
+/* header section start */
 header{
     padding: 45px 135px;
 }
@@ -95,7 +96,94 @@ nav li a{
     border: none;
     color: rgba(19, 19, 24, 0.50);
 }
+/* header section finish */
+/* main section start */
+.popular-tours-section{
+    margin-top: 100px;
+    margin-right: 135px;
+    margin-right: 135px;
 
+}
+.tour-package{
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.tour-img{
+    width: 540px;
+    height: 550px;
+}
+.tour-title{
+    color: #131318;
+    /* text-align: center; */
+    font-size: 40px;
+    font-weight: 800;
+}
+.popular-tours{
+    display: flex;
+}
+.destination-section{
+    text-align: center;
+    margin-top: 100px;
+}
+.box-one{
+    display: flex;
+    column-gap: 24px;
+    row-gap: 24px;
+}
+.img-section{
+    align-items: center;
+    margin-left: 70px;
+}
+.img-one{
+    width: 773px;
+    height: 300px;
+}
+.img-two{
+    width: 873px;
+    height: 300px;
+}
+.choose-section{
+    text-align: center;
+}
+.box-container-title{
+    color: #131318;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 800;
+}
+.box-two{
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    border-radius: 16px;
+    width: 573px;
+    height: 284px;
+}
+.box-three{
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    width: 573px;
+    height: 284px;
+
+}
+.box-four{
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    border-radius: 16px;
+    width: 573px;
+    height: 284px;
+}
+.box-container{
+    display: flex;
+    gap: 24px;
+    row-gap: 24px;
+}
 
 @media screen and (max-width: 600px) {
     header{
@@ -104,14 +192,14 @@ nav li a{
     nav{
         display: block;
     }
-    .banner-title{
+    .banner-title {
         width: 375px;
         height: 64px;
     }
     nav>ul{
         display: block
     }
-    .banner-img{
+    .banner-img, .tour-img{
         width: 335px;
         height: 483px;
     }
@@ -128,7 +216,25 @@ nav li a{
     }
     .btn-primary{
         margin-top: 16px;
+    }
+    .popular-tours{
+        flex-direction: column-reverse;
     }   
+    .tour-package{
+        padding-left: 10px;
+        padding-right: 0;
+        margin-top: 250px;
+    }
+    .tour-title{
+        font-size: 20px;
+    }
+    .tour-package{
+        margin-top: 20px;
+    }
+    .box-one{
+        display: block;
+        
+    }
 }
 
 

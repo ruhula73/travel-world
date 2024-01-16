@@ -18,6 +18,10 @@ body{
 header{
     padding: 45px 135px;
 }
+.nav-logo{
+    display: flex;
+    align-items: center;
+}
 nav {
     display: flex;
     justify-content: space-between;
@@ -163,6 +167,7 @@ nav li a{
     border-radius: 16px;
     width: 573px;
     height: 284px;
+    margin-left: 130px;
 }
 .box-three{
     border-radius: 16px;
@@ -178,6 +183,7 @@ nav li a{
     border-radius: 16px;
     width: 573px;
     height: 284px;
+   margin-left: 430px;
 }
 .box-container{
     display: flex;

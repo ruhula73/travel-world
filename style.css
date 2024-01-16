@@ -190,6 +190,72 @@ nav li a{
     gap: 24px;
     row-gap: 24px;
 }
+.forma-img-container{
+    display: flex;
+    margin-top: 100px;
+    margin-left: 130px;
+}
+.form-field{
+    display: block;
+}
+.form-container{
+    border: 1px solid #FF5400;
+    border-radius: 16px;
+    width: 474px;
+    height: 422px;
+    margin-right: 24px;
+}
+.form-heading{
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    padding-left: 40px;
+}
+.form-discription{
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 40px; 
+}
+.name-email{
+    width: 300px;
+    height: 52px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    border: none;
+    margin-left: 40px;
+}
+.btn-secondery{
+    width: 300px;
+    height: 52px;
+    border: 8px;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+    background: #FF5400;
+    border-radius: 8px;
+    margin-left: 40px;
+}
+.offers{
+    width: 324px;
+    height: 120px;
+    border-radius: 16px;
+    background: #FF5400;
+    border: none;
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 400;
+    transform: rotate(-19.628deg);
+    position: relative;
+    bottom: 170px;
+    left: 340px;
+}
+footer{
+    max-width: 1440px;
+    max-height: 500px;
+}
+
 
 @media screen and (max-width: 600px) {
     header{
